@@ -14,5 +14,5 @@ Vagrant::Config.run do |config|
       args: ["--version=5.6.23", "--rootpw=test"]
   
   # mysql guest, host
-  config.vm.forward_port 3306, 3306
+  config.vm.forward_port 3306, 3305
 end
